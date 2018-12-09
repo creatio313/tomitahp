@@ -1,0 +1,24 @@
+{
+  "name": "tomitahp",
+  "version": "1.0.0",
+  "description": "package.json�̃p�b�P�[�W��:tomitahp\r test command:testhp",
+  "main": "index.js",
+  "scripts": {
+    "test": "testhp"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/creatio313/tomitahp.git"
+  },
+  "author": "Studio-seginus",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/creatio313/tomitahp/issues"
+  },
+  "homepage": "https://github.com/creatio313/tomitahp#readme",
+  "dependencies": {
+    "bootstrap": "^4.1.3",
+    "jquery": "^3.3.1",
+    "popper.js": "^1.14.6"
+  }
+}
