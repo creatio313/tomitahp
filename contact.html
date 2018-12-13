@@ -56,7 +56,7 @@
 		  <div class="collapse navbar-collapse" id="navbarNav">
 			<ul class="navbar-nav">
 			  <li class="nav-item active">
-				<a class="nav-link" href="index.html">Home <span class="sr-only">(current)</span></a>
+				<a class="nav-link" href="index.html">Home</a>
 			  </li>
 			  <li class="nav-item">
 				<a class="nav-link" href="profile.html">Profile</a>
@@ -64,8 +64,8 @@
 			  <li class="nav-item">
 				<a class="nav-link" href="works.html">Works</a>
 			  </li>
-			  <li class="nav-item">
-				<a class="nav-link" href="contact.html">Contact</a>
+			  <li class="nav-item active">
+				<a class="nav-link" href="contact.html">Contact <span class="sr-only">(current)</span></a>
 			  </li>
 			</ul>
 		  </div>
@@ -73,6 +73,20 @@
 	</header>
 	<main class="border-top border-dark">
 		<section class="container">
+			
+			  <div class="row">
+		  		<div class="col-12">
+				<h3>Contact</h3>
+				  <form id="mail" action="form.php" method="post">
+					<input type="text" name="Name" class="form-control" placeholder="お名前（必須）" required><br>
+					<input type="email" name="Mail" class="form-control" placeholder="email（必須）" required><br>
+					<input type="tel" name="Tel" class="form-control" placeholder="お電話番号"><br>
+					<textarea name="subject" class="form-control" rows="1" placeholder="題名"></textarea><br>
+					<textarea name="Naiyou" class="form-control" rows="10"></textarea><br>
+					<button type="submit" class="btn">送信</button>
+		    		</form>
+			  	</div>
+			  </div>
 		</section>
 	</main>
 
