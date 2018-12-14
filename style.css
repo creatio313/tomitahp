@@ -3,18 +3,45 @@
 
 body{
 	font-family: "ヒラギノ角ゴ Pro W3", "Hiragino Kaku Gothic Pro", "メイリオ", Meiryo, Osaka, "ＭＳ Ｐゴシック", "MS PGothic", "sans-serif";
-	/* adding-top: 50px; */
 }
 main{
-	padding-top: 80px;
+	/*ヘッダー調整用パディング*/
+	padding-top: 70px;
+}
+a{
+	color: black;
+}
+a:hover{
+	color: gray;
+	text-decoration: none;	
 }
 section{
 	background-repeat: no-repeat;
 	background-size: cover;
 	background-position: center center;
 }
+.container{
+	padding-top:30px;
+}
+.band{
+	height: 300px;
+	padding: 30px;
+}
+/*トップページ*/
 #top1{
 	color: white;
 	background-image: url("images/top_back.jpg");
 	height: 500px;
+}
+#top2{
+	background-image: url("images/tomitaprof.png");
+	background-size: contain;
+	background-position: right;
+}
+#top3{
+	background-color: ghostwhite;
+}
+/*プロフィールページ*/
+#profimg{
+	max-width: 400px;
 }
