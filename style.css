@@ -43,6 +43,9 @@ section{
 #top3{
 	background-color: ghostwhite;
 }
+.social img{
+	max-width: 200px;
+}
 /*プロフィールページ*/
 #profimg{
 	max-width: 400px;
@@ -50,4 +53,11 @@ section{
 /*作品ページ*/
 .card-img-overlay{
 	display: none;
+}
+
+/*画面が大きくなったときに、ガイドを小さくしすぎないようにする*/
+@media screen and (min-width:768px){
+	.guide{
+		min-height: 300px;
+	}
 }
