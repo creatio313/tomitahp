@@ -1,16 +1,19 @@
-�y�T�C�g�\���z
-�g�b�v�y�[�W�Findex.html
-�v���t�B�[���Fprofile.html
-��i�y�[�W:works.html
-�R���^�N�g�y�[�W:contact.html
+【サイト構造】
+トップページ：index.html
+プロフィール：profile.html
+作品ページ:works.html
+コンタクトページ:contact.html
 
-�yjQuery����z
+【付加装飾】
+style.css
+
+【jQuery制御】
 script.js
 
-�y���[���t�H�[�������z
+【メールフォーム実装】
 form.php
 -----------------------------
-top�y�[�W�̓t�����R���e�i
-���y�[�W�͕W���R���e�i
+topページはフル幅コンテナ
+他ページは標準コンテナ
 
-�M�������[�y�[�W����̂��߁Aworks.html�ł̂݃t����jQuery��ǂݍ���ł���B
+ギャラリーページ制御のため、works.htmlでのみフルのjQueryを読み込んでいる。
