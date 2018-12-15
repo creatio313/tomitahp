@@ -24,8 +24,8 @@ section{
 	padding-top:30px;
 }
 .band{
-	height: 300px;
-	padding: 30px;
+	padding-top: 30px;
+	padding-bottom: 20px;
 }
 /*トップページ*/
 #top1{
@@ -34,9 +34,11 @@ section{
 	height: 500px;
 }
 #top2{
+	/*
 	background-image: url("images/tomitaprof.png");
 	background-size: contain;
-	background-position: right;
+	background-position: right bottom;
+	*/
 }
 #top3{
 	background-color: ghostwhite;
@@ -44,4 +46,8 @@ section{
 /*プロフィールページ*/
 #profimg{
 	max-width: 400px;
+}
+/*作品ページ*/
+.card-img-overlay{
+	display: none;
 }

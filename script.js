@@ -1,11 +1,12 @@
 $(document).ready(()=>{
-	$(".card-img-overlay").hide();
+	
+	let fadeSpeed=300;
 	
 	$(".card").on('mouseenter',()=>{
 		let $image=$(event.currentTarget);
-		$image.children(".card-img-overlay").stop(true).fadeIn(300);
+		$image.children(".card-img-overlay").stop(true).fadeIn(fadeSpeed);
 	}).on('mouseleave',()=>{
 		let $image=$(event.currentTarget);
-		$image.children(".card-img-overlay").stop(true).fadeOut(300);
+		$image.children(".card-img-overlay").stop(true).fadeOut(fadeSpeed);
 	})
 });
