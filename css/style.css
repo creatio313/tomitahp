@@ -30,7 +30,7 @@ section{
 /*トップページ*/
 #top1{
 	color: white;
-	background-image: url("images/top_back.jpg");
+	background-image: url("../images/top_back.jpg");
 	height: 500px;
 }
 #top2{
